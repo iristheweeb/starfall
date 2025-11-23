@@ -1,0 +1,9 @@
+# C# objects we don't need or want
+bin/
+obj/
+
+# Outputs, binaries, libraries, so on...
+*.exe
+*.dll
+*.so
+*.a
