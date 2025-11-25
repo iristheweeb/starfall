@@ -1,11 +1,12 @@
 using Raylib_cs;
 
-namespace Starfall;
-
-public class Player : Entity
+namespace Starfall
 {
-    public Player(int id, string name, string sprite, float x, float y) : base(id, name, sprite, x, y)
+    public class Player : Entity
     {
-        // TODO: fill this out
+        public Player(int id, string name, string sprite, float x, float y) : base(id, name, sprite, x, y)
+        {
+            // TODO: fill this out
+        }
     }
 }
