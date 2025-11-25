@@ -95,10 +95,10 @@ namespace Starfall
             }
         }
 
-        // Checks collision with the bounds of the window (to be implemented later)
-        public bool CheckCollisionWithBoundary()
+        // Checks collision with the bounds of the window
+        public virtual bool CheckCollisionWithBoundary(int HeightMax, int WidthMax)
         {
-            Console.WriteLine("This entity does not have bounds checking implemented!");
+            Console.WriteLine("Bounds collision hasn't been implemented yet!");
             return false;
         }
 
